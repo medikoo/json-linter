@@ -14,7 +14,7 @@ _Derived from [jslint-mod](https://github.com/circlecell/jsonlint-mod) by [Zach 
 
 ### Installation
 
-_Soon to be hopefully renamed to `json-lint`_
+_Soon to be hopefully published as `json-lint`_
 
 ```bash
 npm install json-linter-2
@@ -25,7 +25,7 @@ npm install json-linter-2
 #### CLI
 
 ```bash
-npx json-linter-2 <path>
+npx json-lint <path>
 ```
 
 If `<path>` points a directory all `.json` files at directory and it's subdirectories (but excluding those ignored by `.gitignore` rules)

@@ -6,6 +6,9 @@
     "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
     "Zach Carter <zach@carter.name> (http://zaa.ch)"
   ],
+  "bin": {
+    "json-lint": "./bin/json-lint.js"
+  },
   "keywords": [
     "lint",
     "json"
