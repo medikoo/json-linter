@@ -41,7 +41,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "tape-index && node test.index.js"
+    "test": "node test/index.js"
   },
   "license": "ISC"
 }
