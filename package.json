@@ -40,7 +40,7 @@
     ]
   },
   "eslintIgnore": [
-    "index.js"
+    "lib/parser.js"
   ],
   "scripts": {
     "lint": "eslint .",
