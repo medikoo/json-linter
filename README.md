@@ -12,10 +12,31 @@ _Derived from [jslint-mod](https://github.com/circlecell/jsonlint-mod) by [Zach 
 -   Discards invalid whitespace chars
 -   Errors on duplicate object keys
 
+### Installation
+
+_Soon to be hopefully renamed to `json-lint`_
+
+```bash
+npm install json-linter-2
+```
+
 ### Usage
 
+#### CLI
+
+```bash
+npx json-linter-2 <path>
+```
+
+If `<path>` points a directory all `.json` files at directory and it's subdirectories (but excluding those ignored by `.gitignore` rules)
+are checked.
+
+If `<path>` ponts a file, then given file is linted
+
+#### Programmatical
+
 ```javascript
-const jsonLint = require("json-linter");
+const jsonLint = require("json-linter-2");
 
 const jsonObject = jsonLint(jsonString); // Throws if JSON is invalid
 ```
