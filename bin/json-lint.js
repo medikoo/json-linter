@@ -20,10 +20,10 @@ Usage: json-lint [-h | --help] [--no-pull] [--push] <path>
 
 Lint all JSON files at <path>.
 
-If <path> points file. File is linted.
+If <path> points file, file is linted.
 
-If <path> points directory, then all JSON files found in directory but not marked
-as ignored by eventual .gitignore rules are linted
+If <path> points directory, then all JSON files (but not excluded
+by eventual .gitignore rules) in directory are linted
 
 Options:
 
