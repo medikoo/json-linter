@@ -1,4 +1,4 @@
-# json-linter
+# json-lint
 
 _Derived from [jslint-mod](https://github.com/circlecell/jsonlint-mod) by [Zach Carter](https://github.com/zaach) and [Andrey Gubanov](https://github.com/finom)_
 
