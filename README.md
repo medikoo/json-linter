@@ -2,7 +2,7 @@
 [![Windows build status][win-build-image]][win-build-url]
 [![npm version][npm-image]][npm-url]
 
-# json-lint
+# json-linter-2
 
 _Derived from [jslint-mod](https://github.com/circlecell/jsonlint-mod) by [Zach Carter](https://github.com/zaach) and [Andrey Gubanov](https://github.com/finom)_
 
@@ -13,8 +13,6 @@ _Derived from [jslint-mod](https://github.com/circlecell/jsonlint-mod) by [Zach 
 -   Errors on duplicate object keys
 
 ### Installation
-
-_Soon to be hopefully published as `json-lint`_
 
 ```bash
 npm install json-linter-2
@@ -47,9 +45,9 @@ const jsonObject = jsonLint(jsonString); // Throws if JSON is invalid
 npm test
 ```
 
-[nix-build-image]: https://semaphoreci.com/api/v1/medikoo-org/json-linter/branches/master/shields_badge.svg
-[nix-build-url]: https://semaphoreci.com/medikoo-org/json-linter
+[nix-build-image]: https://semaphoreci.com/api/v1/medikoo-org/json-linter-2/branches/master/shields_badge.svg
+[nix-build-url]: https://semaphoreci.com/medikoo-org/json-linter-2
 [win-build-image]: https://ci.appveyor.com/api/projects/status/x07py6qbye37d1gj?svg=true
-[win-build-url]: https://ci.appveyor.com/project/medikoo/json-linter
-[npm-image]: https://img.shields.io/npm/v/json-linter.svg
-[npm-url]: https://www.npmjs.com/package/json-linter
+[win-build-url]: https://ci.appveyor.com/project/medikoo/json-linter-2
+[npm-image]: https://img.shields.io/npm/v/json-linter-2.svg
+[npm-url]: https://www.npmjs.com/package/json-linter-2
